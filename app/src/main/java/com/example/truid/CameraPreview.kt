@@ -18,7 +18,6 @@ import androidx.core.content.ContextCompat
 fun CameraPreview(
     modifier: Modifier = Modifier,
     scaleType: PreviewView.ScaleType = PreviewView.ScaleType.FILL_CENTER,
-    cameraSelector: CameraSelector = CameraSelector.DEFAULT_FRONT_CAMERA
 ) {
     val lifecycleOwner = LocalLifecycleOwner.current
     val context = LocalContext.current
@@ -49,7 +48,6 @@ fun CameraPreview(
                     cameraProvider.bindToLifecycle(
                         lifecycleOwner,
                         cameraSelector,
-                        preview
                     )
                 } catch (exc: Exception) {
                     Log.e("CameraPreview", "Use case binding failed", exc)
