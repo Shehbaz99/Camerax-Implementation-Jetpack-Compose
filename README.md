@@ -45,11 +45,6 @@ This project was created as a learning-focused implementation to explore Google'
 
 # 📸 Screenshots
 
-> Add screenshots of your application here.
-
-| Camera Preview | Image Capture | Camera Switch |
-| -------------- | ------------- | ------------- |
-| Screenshot     | Screenshot    | Screenshot    |
 
 ---
 
