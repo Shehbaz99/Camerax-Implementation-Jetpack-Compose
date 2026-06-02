@@ -45,7 +45,6 @@ This project was created as a learning-focused implementation to explore Google'
 
 # 📸 Screenshots
 
-
 ---
 
 # 🛠️ Tech Stack
